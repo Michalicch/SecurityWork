@@ -12,8 +12,10 @@ body,p,h1,h2,h3,ul,ol {
   margin: 0;
 }
 a {
-  text-decoration: none;  
+  text-decoration: none; 
+  color: rgb(8, 11, 108); 
 }
+
 
 ul,
 ul li {
