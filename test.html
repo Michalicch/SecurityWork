@@ -33,7 +33,7 @@
 
 
 		<main class="container">
-			<section class="test none">
+			<section class="test  ">
 
 				<div class="test__content">
 					<ul class="question__number">
@@ -66,6 +66,44 @@
 
 
 			<!-- Модалки -->
+			<div class="registration__form modal__alert none">
+				<h2>Для прохождения тестирования заполните форму</h2>
+				<form action="" method="post" class="test__form">
+					<div class="form__content">
+						<div class="label__wrapper">
+							<label for="surname">Фамилия</label>
+							<label for="name">Имя</label>
+							<label for="patronymic">Отчество</label>
+							<label for="department">Подразделение</label>
+
+						</div>
+						<div class="input_wrapper">
+							<input type="text" name="surname" id="surname">
+							<input type="text" name="name" id="name">
+							<input type="text" name="patronymic" id="patronymic" placeholder="">
+							<select type="slider" name="department" id="department" >
+								<option value="false" >Выбери подразделение</option>
+								<option value="1 отделение">1 отделение</option>
+								<option value="2 отделение">2 отделение</option>
+								<option value="3 отделение">3 отделение</option>
+								<option value="4 отделение">4 отделение</option>
+								<option value="5 отделение">5 отделение</option>
+								<option value="6 отделение">6 отделение</option>
+								<option value="7 отделение">7 отделение</option>
+								<option value="ОРИТ">ОРИТ</option>
+								<option value="Туб.отделение">Туб.отделение</option>
+								<option value="Приемное отд.">Приемное отд.</option>
+								<option value="Аптека">Аптека</option>
+								<option value="Пищеблок">Пищеблок</option>
+								<option value="Администрация">Администрация</option>
+								<option value="Иное">Иное</option>
+							</select>
+						</div>
+					</div>
+
+					<button class="btn question__button" id="confirm-answer" type="submit">Начать тестирование</button>
+				</form>
+			</div>
 
 			<div class="modal__alert none">
 				<h2 class="modal__title">Великолепно!!!</h2>
